@@ -64,4 +64,4 @@ if (yarn) {
   child = spawn(lerna, args, { stdio: 'inherit' });
 }
 
-child.on('close', code => process.exit(code));
+child.on('close', code => process.exit(code)); 
